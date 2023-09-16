@@ -213,20 +213,69 @@
 		</div>	
 		<div class="contato-cards">
 			<div class="contato-cards-forms">
-				<form>
-					<input placeholder="Digite seu nome">
-					<input placeholder="Digite seu e-mail">
-					<input placeholder="Digite sua mensagem" class="mensagem">
-					<button class="btn btn-form">ENVIAR</button>
-				</form>
+				<form
+                    method="post"
+                    action="https://formsubmit.co/"
+                    class="contato-formulario-campos">
+                    <input
+                        type="text"
+                        id="nome"
+                        name="name"
+                        required
+                        placeholder="Nome Completo"
+                        class="contato-formulario-campos-input" />
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="E-mail"
+                        class="contato-formulario-campos-input" />
+                    <textarea
+                        id="mensagem"
+                        name="message"
+                        required
+                        placeholder="Mensagem"
+                        class="contato-formulario-campos-input"></textarea>
+
+                    <button
+                        type="submit"
+                        value="ENVIAR"
+                        class="btn btn-form">
+                        ENVIAR
+                    </button>
+
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input
+                        type="hidden"
+                        name="_subject"
+                        value="Novo Contato!" />
+                    <input type="hidden" name="_honey" style="display: none" />
+                </form>
 			</div>
-			
 			<div class="contato-cards-mapa">
-				<p>oi</p>
+				<iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7402484537583!2d-44.1271956!3d-19.9353479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6c02e3b0230df%3A0xfb6a215191da13ec!2sR.%20Dez%20-%20Vila%20Cristina%2C%20Betim%20-%20MG%2C%2032675-738!5e0!3m2!1spt-BR!2sbr!4v1684199202834!5m2!1spt-BR!2sbr"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</div>
 	
 	
 	</section>
+
+	<footer class="rodape">
+		<img src="img/logo_footer.svg" alt="">
+		<ul class="footer-menu">
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Serviços</a></li>
+			<li><a href="#">Sobre</a></li>
+			<li><a href="#">Contato</a></li> 
+		</ul>
+	</footer>
 </body>
 </html>
