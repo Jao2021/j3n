@@ -1,0 +1,170 @@
+@media (max-width: 600px) {
+		
+	header{
+    justify-content: center;
+      
+}
+	
+	main{
+    background: url(img/bg-header-mb.webp) var(--cinzaEscuro) ;
+    background-position: bottom center;
+    background-size: contain;
+	background-repeat: no-repeat;	
+    padding: 10vh 5vw 60vh 5vw;
+	
+
+}
+	
+	img{
+    width: 45%;
+}
+	.header-hl{
+    width: 100%;
+	padding-top: 0vh;
+	text-align: center;
+   
+	
+}
+	
+	.headline{
+    font-size: 7vw;
+    padding-top: 3vh;
+}
+	.subheadline{
+    font-size: 4.4vw;
+    font-weight: 400;
+    padding: 3vh 0vw 10vw 0vw;
+}
+	
+	.btn{
+   
+    padding: 3vw 10vw;
+    border-radius: 5px 5px 100px 5px;
+    font-weight: 700;
+    font-size: 4.5vw;
+}
+	.servicos{
+	padding: 10vh 5vw;
+		
+}
+	.servicos-titulo h3{
+	font-size: 7vw;
+	
+}
+	.servicos-titulo h4{
+	font-size: 4.5vw;
+	padding-bottom: 3vh;
+
+}
+	
+	.servicos-cards1{
+	display: flex;
+	flex-direction: column;
+	gap: 5vw;
+}
+	
+	.card-container {
+	width: 100%;
+	height: 50vh;}
+	  
+	
+	.serv1{
+	background: url(img/1.jpg);
+	background-size: cover;
+}
+	
+	.card .front-content p {
+    font-size: 4.3vw;
+	padding: 3vh 2vh 4vh 2vh;
+	
+}
+	
+	.sobre{
+	padding: 10vh 5vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+	
+	.sobre-texto{
+	width: 100%;
+	padding-bottom: 5vh;
+	
+}
+	.sobre-texto p{
+	font-size: 4vw;
+
+}
+	
+	.sobre-titulo h3{
+	font-size: 7vw;
+}
+
+.sobre-titulo h4{
+	font-size: 4.5vw;
+	font-weight: 400;
+	padding: 1vw 0vh 5vw 0vw;
+}
+	
+	.sobre-imagem{
+	width: 90%;
+}
+
+	.contato{
+	padding: 10vh 5vw;
+	}
+	
+	.contato-titulo h3{
+	font-size: 7vw;
+}
+
+.contato-titulo h4{
+	font-size: 4.5vw;
+	padding: 1vw 0vh 5vw 0vw;
+}
+	
+	.contato-cards{
+	display: flex;
+	flex-direction: column;	
+}
+	
+	.contato-cards-forms{
+	padding: 5vw 5vw;
+	width: 90%;
+	margin-bottom: 5vh;
+
+}
+	
+	.contato-cards-mapa{
+	width: 90vw;
+}
+	
+	.contato-cards-mapa iframe{
+	width: 100%;
+  height: 40vh;
+}
+
+   .rodape img{ 
+	width: 30%;
+}
+	
+  .footer-menu a{
+  font-size: 3vw;
+  }
+	
+	.contato-cards-mapa::before{
+  content: "";
+  pointer-events: none;
+  border-radius: 50%;
+  margin-top: -20px;
+  left: 35%;
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  background-color: white;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}

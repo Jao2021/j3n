@@ -17,10 +17,10 @@
 
 main{
     background: url(img/bg-header.webp) ;
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10vh 15vw 20vh 15vw;
+    padding: 10vh 15vw 15vh 15vw;
 
     
 }
@@ -29,12 +29,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: top;
+	
    
 }
 
 .header-menu{
-    display: flex;
-    gap: 1.5vw;
+    display: none;
+    gap: 2vw;
+	
 
 }
 
@@ -75,13 +77,14 @@ a:after {
 }
 
 img{
-    width: 12%;
+    width: 20%;
 }
 
 .header-hl{
     width: 50%;
     font-family: var(--fontePrincipal);
     color: white;
+	padding-top: 5vh;
    
 }
 
@@ -103,8 +106,7 @@ img{
 .btn{
     background: var(--laranjaGradiente);
     padding: 1vw 4vw;
-    border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 5px 5px 100px 5px;
     font-weight: 700;
     font-size: 1vw;
 }
@@ -116,7 +118,7 @@ img{
 /* SERVIÇOS */
 
 .servicos{
-	background: var(--laranjaEscuro) url(img/pattern.png) repeat;
+	background: var(--laranjaEscuro);
 	padding: 10vh 15vw;
 		
 }
@@ -161,23 +163,28 @@ img{
   border-radius: inherit;
 }
 
+.serv1{
+	background: url(img/1.jpg)
+}
 .card .front-content {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   gap: 1vh;
 }
 
 .card .front-content p {
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   font-weight: 500;
   opacity: 1;
   color: var(--laranjaEscuro);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+	margin-top: auto;
+	padding: 2vh 2vh 4vh 2vh;
+	background: white;
 }
 
 .card .content {
@@ -290,7 +297,7 @@ img{
   pointer-events: none;
   border-radius: 50%;
   margin-top: 80px;
-  left: 48.5vw;
+  left: 50%;
   position: absolute;
   width: 1.5px;
   height: 30%;
@@ -301,7 +308,7 @@ img{
 }
 
 .contato-cards-mapa{
-	width: 500px;
+	width: 30vw;
 }
 
 .contato-cards-mapa iframe{
@@ -350,6 +357,7 @@ textarea{
 	color: white;
 	font-weight: 600;
 	font-size: 0.8vw;
+	border: none;
 }
 
 .btn-form:hover{
@@ -372,7 +380,7 @@ textarea{
 }
 
 .footer-menu a{
-  font-size: 1vw;
+  font-size: 0.8vw;
   color: var(--cinzaEscuro);
   font-family: var(--fontePrincipal);
   cursor: pointer;
@@ -387,3 +395,6 @@ textarea{
 }
 
 
+.rodape img{
+	width: 5%;
+}
