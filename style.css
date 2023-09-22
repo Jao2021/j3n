@@ -46,7 +46,7 @@ header{
 }
 
 main a{
-  font-size: 1vw;
+  font-size: 1.1vw;
   color: #fff;
   font-family: var(--fontePrincipal);
   cursor: pointer;
@@ -202,8 +202,16 @@ img{
   border-radius: inherit;
 }
 
-.serv1{
-	background: url(img/1.jpg)
+.serv{
+  background: url(img/nr12.jpg)
+}
+
+.serv2{
+  background: url(img/pmoc.jpg)
+}
+
+.serv3{
+	background: url(img/desmanche.jpg)
 }
 .card .front-content {
   width: 100%;
