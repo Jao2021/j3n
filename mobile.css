@@ -4,6 +4,20 @@
     justify-content: center;
       
 }
+
+.btn-insta{
+	position: fixed;
+	  left: 94%;
+	  top: 2%;
+  }
+  
+
+.btn-wpp{
+	position: fixed;
+	left: 76%;
+	bottom: 3%;
+	
+}
 	
 	main{
     background: url(img/bg-header-mb.webp) var(--cinzaEscuro) ;
@@ -208,7 +222,7 @@
 }
 	
   .footer-menu a{
-  font-size: 3vw;
+  font-size: 4vw;
   }
 	
 	.contato-cards-mapa::before{
