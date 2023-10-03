@@ -16,19 +16,31 @@
 */
 
 .btn-insta{
-  position: fixed;
-	left: 97.5%;
-	top: 2%;
+	position: fixed;
+	left: 92%;
+	bottom: 17%;
+	padding: 18px;
+  background: rgb(131,58,180);
+  background: linear-gradient(202deg, rgba(131,58,180,1) 0%, rgba(203,47,47,1) 54%, rgba(252,176,69,1) 100%);
+  border-radius: 50%;
+	z-index: 1000000;
+  transition: .3s;
 }
 
 .btn-insta i{
 	color: white;
-	font-size: 15px;
+	font-size: 35px;
 }
 
-.btn-insta i:hover{
-	color: #ff5e38;
-	font-size: 15px;
+.btn-insta:hover{
+  cursor: pointer;
+  background: rgb(131,58,180);
+background: linear-gradient(219deg, rgba(131,58,180,1) 0%, rgba(176,19,19,1) 54%, rgba(252,176,69,1) 100%);
+  transition: .3s;
+}
+
+.btn-insta a:after{
+  display: none;
 }
 
 
@@ -247,13 +259,18 @@ img{
   background: url(img/nr12.jpg)
 }
 
+.serv1{
+  background: url(img/nr12.jpg)
+}
+
 .serv2{
-  background: url(img/pmoc.jpg)
+	background: url(img/nr13.jpg)
 }
 
 .serv3{
-	background: url(img/nr13.jpg)
+  background: url(img/pmoc.jpg)
 }
+
 
 .serv4{
 	background: url(img/epi.jpg)
@@ -298,6 +315,7 @@ img{
 
 .card .content {
   position: absolute;
+  font-size: 2vh;
   top: 0;
   left: 0;
   width: 92%;
@@ -310,7 +328,8 @@ img{
   background: var(--cinzaEscuro);
   color: white;
   padding: 20px;
-  line-height: 1.5;
+  padding-left: 15px;
+  line-height: 1.1;
   border-radius: 5px;
   transform: translateY(96%);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
