@@ -260,11 +260,11 @@ img{
 }
 
 .serv{
-  background: url(img/nr12.jpg)
+  background: url(img/nr11.jpg)
 }
 
 .serv1{
-  background: url(img/nr12.jpg)
+  background: url(img/nr-12.png)
 }
 
 .serv2{
@@ -281,19 +281,35 @@ img{
 }
 
 .serv5{
-	background: url(img/insalubridade.jfif)  
+	background: url(img/linhadevida.png)  
 }
 
 .serv6{
-	background: url(img/nr01.png)  
+	background: url(img/pericia.jpg)  
 }
 
 .serv7{
-	background: url(img/ppp.jpg)  
+	background: url(img/crea.jpg)  
 }
 
 .serv8{
+	background: url(img/projetodemaquina.jpg)  
+}
+
+.serv9{
 	background: url(img/cipa.png)  
+}
+
+.serv10{
+	background: url(img/esocial.jpg)  
+}
+
+.serv11{
+	background: url(img/ppci.jpg)  
+}
+
+.serv12{
+	background: url(img/curso.jpg)  
 }
 
 .card .front-content {

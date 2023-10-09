@@ -128,6 +128,9 @@
 	padding-bottom: 3vh;
 
 }
+.serv7{
+	background: url(img/crea\ -\ Copia.jpg)  
+}
 	
 	.servicos-cards1{
 	display: flex;
@@ -145,9 +148,14 @@
 }
 	
 	.card .front-content p {
-    font-size: 4.3vw;
+    font-size: 4.5vw;
 	padding: 3vh 2vh 4vh 2vh;
 	
+}
+
+.content p{
+	font-size: 5vw;
+	line-height: 1.2;
 }
 	
 	.sobre{
